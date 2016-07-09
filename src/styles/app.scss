@@ -1,0 +1,17 @@
+$bootstrap-sass-asset-helper: true;
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~animate.css/animate";
+
+html, body, #app {
+    height: 100%;
+}
+
+:local(.wrapper) {
+    position: relative;
+    min-height: 100%;
+}
+
+:local(.body) {
+    padding-bottom: 32px;
+}
